@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'SFMono-BoldItalic';
+  src: url('SFMono-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'SFMono-Bold', Arial, sans-serif;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
